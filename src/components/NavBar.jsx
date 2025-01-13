@@ -42,40 +42,45 @@ export default function Navigation() {
 
                             {/* Burger Menu */}
                             <div className="flex md:hidden">
-                                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-gray-800 hover:bg-gray-200 focus:outline-none">
-                                    <span className="sr-only">Open main menu</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
-                                        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                                    </svg>
+                                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-black  focus:outline-none">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 4.5h14.25M3 9h9.75M3 13.5h9.75m4.5-4.5v12m0 0-3.75-3.75M17.25 21 21 17.25" />
+                                </svg>
+
+
                                 </Disclosure.Button>
                             </div>
                         </div>
                     </div>
 
                     {/* Overlay */}
-                    {open && <div className="fixed inset-0 bg-black bg-opacity-50 z-40"></div>}
+                    {/* {open && <div className="fixed inset-0 bg-black bg-opacity-50 z-40"></div>} */}
 
                     {/* Sidebar */}
                     <Disclosure.Panel
-                        className={`fixed top-0 right-0 w-1/2 h-full bg-white z-50 transform ${
+                        className={`fixed top-0 right-0 w-full rounded-b-3xl bg-gradient-to-b from-[#E2F6FC] to-white z-50 drop-shadow-lg transform ${
                             open ? "translate-x-0" : "translate-x-full"
                         } transition-transform duration-300`}
                     >
-                        <div className="px-4 py-6">
-                            {/* Close Button */}
-                            <div className="flex justify-end">
-                                <Disclosure.Button className="text-gray-600 p-1 mr-1 hover:text-gray-800 focus:outline-none">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="m9.75 9.75 4.5 4.5m0-4.5-4.5 4.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
-                                </svg>
-
-
-
-                                </Disclosure.Button>
+                        
+                        <div className="px-6 py-6">
+                            <div className="flex justify-between">
+                                {/* Logo */}
+                                <div>
+                                    <Link key={"/FaQ"} to={"/FaQ"} className="text-2xl font-bold text-[#154871]">
+                                        Travelwdra
+                                    </Link>
+                                </div>
+                                {/* Button */}
+                                <button className=" bg-[#154871] w-max text-sm text-white px-4 py-2 rounded-lg shadow-lg hover:bg-[#42A7C3] transition w-full">
+                                    Book Us
+                                </button>
                             </div>
+                            
+                            
 
                             {/* Menu Links */}
-                            <div className="mt-8 space-y-4">
+                            <div className="mt-8 space-y-4 text-center">
                                 {routes.map((route) => (
                                     <Link
                                         key={route.path}
@@ -86,10 +91,16 @@ export default function Navigation() {
                                     </Link>
                                 ))}
 
-                                {/* Button */}
-                                <button className="mt-4 bg-[#154871] text-sm text-white px-4 py-2 rounded-lg shadow-lg hover:bg-[#42A7C3] transition w-full">
-                                    Book Us
-                                </button>
+                                {/* Close Button */}
+                                <div className="flex justify-end">
+                                    <Disclosure.Button className="text-gray-600 p-1 mr-1 hover:text-gray-800 focus:outline-none">
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="M3 4.5h14.25M3 9h9.75M3 13.5h5.25m5.25-.75L17.25 9m0 0L21 12.75M17.25 9v12" />
+                                        </svg>
+                                    </Disclosure.Button>
+                                </div>
+
+            
                             </div>
                         </div>
                     </Disclosure.Panel>
