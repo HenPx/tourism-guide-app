@@ -10,13 +10,12 @@ export default function Home(){
         <>
             <header>
                 <div className="absolute top-0 left-0 w-full bg-gradient-to-b from-[#E2F6FC] to-white h-80 z-0"></div>
-
                 <Navigation/>
             </header>
-            <main className="px-4 sm:px-6 md:py-4  lg:px-16">
+            <main className="px-6 md:py-4  lg:px-16">
                 <section className="relative md:mt-0  md:mt-0 space-x-0 md:space-x-8 items-center flex flex-col md:flex-row justify-evenly mt-6 mb-6 md:justify-between z-20 min-h-screen max-h-screen mt-auto ">
                     <div className="space-y-4 md:space-y-6 text-center md:text-left">
-                        <h1 className="font-bold text-4xl md:text-7xl text-black">
+                        <h1 className="font-bold text-4xl md:text-7xl text-[#0C345D]">
                             Explore Freely, <br />
                             <span className="text-[#42A7C3]">Guided Safely.</span>
                         </h1>
@@ -44,11 +43,15 @@ export default function Home(){
                         <img src={LandCover} alt="ImageLanding" className="w-[300px] md:w-auto mx-auto"/>
                     </div>
                 </section>
-                <section className="relative z-20">
+                <hr className="relative z-20"/>
+                <section className="relative flex flex-col z-20 min-h-screen items-center justify-center">
+                    <h2 className="font-bold text-2xl md:text-4xl text-center mb-6 text-black">Explore the <span className="text-[#42A7C3]">destination.</span></h2>
                     <ExploreDestination/>
                 </section>
+                <hr className="relative z-20"/>
+
             </main>
-            <footer>
+            <footer className="px-6 md:py-4 lg:px-16">
                 <FooterBox/>
             </footer>
         </>

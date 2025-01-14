@@ -13,7 +13,7 @@ export default function Navigation() {
         <Disclosure as="nav" className="w-full fixed top-0 z-50 bg-transparent">
             {({ open }) => (
                 <>
-                    <div className="max-w-full mx-auto px-4 py-2 sm:px-6 lg:px-16">
+                    <div className="max-w-full mx-auto px-6 py-2 lg:px-16">
                         <div className="flex justify-between items-center h-16">
                             {/* Logo */}
                             <div>
@@ -42,7 +42,7 @@ export default function Navigation() {
 
                             {/* Burger Menu */}
                             <div className="flex md:hidden">
-                                <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-gray-600 hover:text-black  focus:outline-none">
+                                <Disclosure.Button className="inline-flex items-center justify-center  rounded-md text-gray-600 hover:text-black  focus:outline-none">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 4.5h14.25M3 9h9.75M3 13.5h9.75m4.5-4.5v12m0 0-3.75-3.75M17.25 21 21 17.25" />
                                 </svg>
@@ -63,7 +63,7 @@ export default function Navigation() {
                         } transition-transform duration-300`}
                     >
                         
-                        <div className="px-6 py-6">
+                        <div className="px-4 py-6">
                             <div className="flex justify-between">
                                 {/* Logo */}
                                 <div>
