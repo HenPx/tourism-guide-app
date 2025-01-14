@@ -2,116 +2,139 @@
     {
         "name": "Monkey Forest",
         "tagLoc": "Ubud",
-        "src": "Photo"
+        "src": "src/assets/destinationPic/monkeyforest.jpg",
+        "gmaps": "https://maps.app.goo.gl/i9VRyTKoLLxPiahK8"
     },
     {
         "name": "Ubud Palace",
         "tagLoc": "Ubud",
-        "src": "Photo"
+        "src": "src/assets/destinationPic/ubudpalace.jpg",
+        "gmaps": "https://maps.app.goo.gl/WE1oK1Ro3pKvcaid9"
     },
     {
         "name": "Tegelalang Rice Terace",
         "tagLoc": "Ubud",
-        "src": "Photo"
+        "src": "src/assets/destinationPic/tgllrice.jpg",
+        "gmaps": "https://maps.app.goo.gl/z21ztbXpipQXCTxS8"
     },
     {
         "name": "Tirta Empul Holy Water Temple",
         "tagLoc": "Ubud",
-        "src": "Photo"
+        "src": "src/assets/destinationPic/tirtaempul.jpg",
+        "gmaps": "https://maps.app.goo.gl/7fvPtxXQhFjFVNj89"
     },
     {
         "name": "Tegenungan Waterfall",
         "tagLoc": "Ubud",
-        "src": "Photo"
+        "src": "src/assets/destinationPic/tegenungan.jpg",
+        "gmaps": "https://maps.app.goo.gl/PmGYeE7TrDsj9CZj9"
     },
     {
         "name": "Ulun Danu Temple",
         "tagLoc": "North Bali",
-        "src": "Photo"
+        "src": "src/assets/destinationPic/ulundanu.jpg",
+        "gmaps": "https://maps.app.goo.gl/syHSogEd3g9Ws1Uw8"
     },
     {
         "name": "Handara Gate",
         "tagLoc": "North Bali",
-        "src": "Photo"
+        "src": "src/assets/destinationPic/handaragate.jpg",
+        "gmaps": "https://maps.app.goo.gl/h1CZ4tKekgdXNhGf6"
     },
     {
         "name": "Wanagiri Hidden Hill",
         "tagLoc": "North Bali",
-        "src": "Photo"
+        "src": "src/assets/destinationPic/noimage.jpg",
+        "gmaps": "https://maps.app.goo.gl/De1xnxiaofYnZtaM8"
     },
     {
         "name": "Banyumala Waterfall",
         "tagLoc": "North Bali",
-        "src": "Photo"
+        "src": "src/assets/destinationPic/noimage.jpg",
+        "gmaps": "https://maps.app.goo.gl/ampSdhnhkyP3AFan9"
     },
     {
         "name": "Lempuyang Temple",
         "tagLoc": "East Bali",
-        "src": "Photo"
+        "src": "src/assets/destinationPic/noimage.jpg",
+        "gmaps": "https://maps.app.goo.gl/82e6RZUTZxNm7BEFA"
     },
     {
         "name": "Tirta Gangga",
         "tagLoc": "East Bali",
-        "src": "Photo"
+        "src": "src/assets/destinationPic/noimage.jpg",
+        "gmaps": "https://maps.app.goo.gl/PS6edZs6gdKX8G1u6"
     },
     {
         "name": "Kantolampo Waterfall",
         "tagLoc": "East Bali",
-        "src": "Photo"
+        "src": "src/assets/destinationPic/noimage.jpg",
+        "gmaps": "https://maps.app.goo.gl/hBFFHnp4f5BUrwbA9"
     },
     {
         "name": "Water Spot Tanjung Benoa",
         "tagLoc": "South Bali",
-        "src": "Photo"
+        "src": "src/assets/destinationPic/noimage.jpg",
+        "gmaps": "https://maps.app.goo.gl/9CfPmoFyfa73aosw5"
     },
     {
         "name": "Uluwatu Temple",
         "tagLoc": "South Bali",
-        "src": "Photo"
+        "src": "src/assets/destinationPic/noimage.jpg",
+        "gmaps": "https://maps.app.goo.gl/995ZGKoeBXV4doQ47"
     },
     {
         "name": "Kecak Dance with Sunset",
         "tagLoc": "South Bali",
-        "src": "Photo"
+        "src": "src/assets/destinationPic/noimage.jpg",
+        "gmaps": "https://maps.app.goo.gl/2crBPfbLcvVsPaiy9"
     },
     {
         "name": "Romantic Dinner at Jimbaran",
         "tagLoc": "South Bali",
-        "src": "Photo"
+        "src": "src/assets/destinationPic/noimage.jpg",
+        "gmaps": "https://maps.app.goo.gl/csmvvUMRf7fZjJbQ7"
     },
     {
         "name": "Taman Ayun Temple",
         "tagLoc": "West Bali",
-        "src": "Photo"
+        "src": "src/assets/destinationPic/noimage.jpg",
+        "gmaps": "https://maps.app.goo.gl/86qLoKyWagUcyK4N9"
     },
     {
         "name": "Jatiluwih Rice Terace",
         "tagLoc": "West Bali",
-        "src": "Photo"
+        "src": "src/assets/destinationPic/noimage.jpg",
+        "gmaps": "https://maps.app.goo.gl/VuQd4yN58A3K31P9A"
     },
     {
         "name": "Tanah Lot Temple",
         "tagLoc": "West Bali",
-        "src": "Photo"
+        "src": "src/assets/destinationPic/noimage.jpg",
+        "gmaps": "https://maps.app.goo.gl/vaiqboZZ3NWtVGRN8"
     },
     {
         "name": "Kelingking Beach",
         "tagLoc": "Nusa Penida",
-        "src": "Photo"
+        "src": "src/assets/destinationPic/noimage.jpg",
+        "gmaps": "https://maps.app.goo.gl/iAEjBgM85DWzvmNP9"
     },
     {
         "name": "Broken Beach",
         "tagLoc": "Nusa Penida",
-        "src": "Photo"
+        "src": "src/assets/destinationPic/noimage.jpg",
+        "gmaps": "https://maps.app.goo.gl/RNrLJzxyE628rcJc9"
     },
     {
-        "name": "Angel Bilabong",
+        "name": "Angel's Bilabong",
         "tagLoc": "Nusa Penida",
-        "src": "Photo"
+        "src": "src/assets/destinationPic/noimage.jpg",
+        "gmaps": "https://maps.app.goo.gl/yZ8imxyr8us6UAGg6"
     },
     {
         "name": "Diamond Beach",
         "tagLoc": "Nusa Penida",
-        "src": "Photo"
+        "src": "src/assets/destinationPic/noimage.jpg",
+        "gmaps": "https://maps.app.goo.gl/q9rYx8vhaQkY74ANA"
     }
 ]
