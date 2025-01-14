@@ -44,7 +44,6 @@ export default function Home(){
                         <img src={LandCover} alt="ImageLanding" className="w-[300px] md:w-auto mx-auto"/>
                     </div>
                 </section>
-
                 <section className="relative z-20">
                     <ExploreDestination/>
                 </section>
