@@ -9,11 +9,11 @@ export default function Home(){
     return(
         <>
             <header>
-                <div className="absolute top-0 left-0 w-full bg-gradient-to-b from-[#E2F6FC] to-white h-80 z-0"></div>
+                <div className="absolute top-0 left-0 w-full bg-gradient-to-b from-[#E2F6FC] to-white h-60 z-0"></div>
                 <Navigation/>
             </header>
             <main className="px-6 md:py-4  lg:px-16">
-                <section className="relative md:mt-0  md:mt-0 space-x-0 md:space-x-8 items-center flex flex-col md:flex-row justify-evenly mt-6 mb-6 md:justify-between z-20 min-h-screen max-h-screen mt-auto ">
+                <section className="relative md:mt-0   space-x-0 md:space-x-8 items-center flex flex-col md:flex-row justify-evenly  mb-6 md:justify-between z-20 min-h-screen max-h-screen mt-auto ">
                     <div className="space-y-4 md:space-y-6 text-center md:text-left">
                         <h1 className="font-bold text-4xl md:text-7xl text-[#0C345D]">
                             Explore Freely, <br />

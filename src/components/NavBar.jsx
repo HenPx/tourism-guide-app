@@ -63,7 +63,7 @@ export default function Navigation() {
                         } transition-transform duration-300`}
                     >
                         
-                        <div className="px-4 py-6">
+                        <div className="px-6 py-6">
                             <div className="flex justify-between">
                                 {/* Logo */}
                                 <div>
