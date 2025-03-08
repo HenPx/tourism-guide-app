@@ -6,13 +6,13 @@ export default function ExploreDestination() {
 
     return (
         <>
-            <div className="flex flex-col md:flex-row justify-center gap-6 mx-auto items-stretch ">
+            <div className="flex flex-col md:flex-row gap-6 ">
                 {destination.slice(0, 3).map((item, index) => (
-                    <div key={index} className=" rounded-lg w-[225px] shadow-md overflow-hidden flex flex-col">
+                    <div key={index} className=" rounded-lg w-full sm:w-[225px] shadow-md overflow-hidden flex flex-col">
                         <img
                             src={item.src}
                             alt={item.name}
-                            className="w-full h-40  "
+                            className="w-full sm:h-40  "
                         />
                         <div className="p-4 flex-1 flex flex-col justify-between">
                             <h3 className="text-xl font-semibold text-start break-words">
@@ -34,8 +34,6 @@ export default function ExploreDestination() {
 
                                 </a>
                             </div>
-                            
-                            
                         </div>
                     </div>
                 ))}
