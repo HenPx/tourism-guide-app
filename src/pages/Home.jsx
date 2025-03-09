@@ -5,6 +5,7 @@ import WhyUsCard from "../sections/WhyUs";
 import FooterBox from "../components/Footer";
 import LandCover from "../assets/png/LandingCover.png"
 import ClientReview from "../sections/Reviews";
+import TeamProfiles from "../sections/TeamProfiles";
 
 
 export default function Home(){
@@ -59,6 +60,12 @@ export default function Home(){
                 <section className="relative flex flex-col z-20 items-center justify-center">
                     <h2 className="font-bold text-2xl md:text-4xl text-center mb-6 text-black">Our client's <span className="text-[#42A7C3]">review.</span></h2>
                     <ClientReview/>
+                </section>
+                <hr className="relative z-20"/>
+
+                <section className="relative flex flex-col z-20 items-center justify-center">
+                    <h2 className="font-bold text-2xl md:text-4xl text-center mb-6 text-black">Meet our <span className="text-[#42A7C3]">teams.</span></h2>
+                    <TeamProfiles/>
                 </section>
                 <hr className="relative z-20"/>
 
