@@ -4,6 +4,7 @@ import ExploreDestination from "../sections/ExploreDes";
 import WhyUsCard from "../sections/WhyUs";
 import FooterBox from "../components/Footer";
 import LandCover from "../assets/png/LandingCover.png"
+import ClientReview from "../sections/Reviews";
 
 
 export default function Home(){
@@ -13,7 +14,7 @@ export default function Home(){
                 <div className="absolute top-0 left-0 w-full bg-gradient-to-b from-[#E2F6FC] to-white h-60 z-0"></div>
                 <Navigation/>
             </header>
-            <main className="px-6 md:py-4  lg:px-16">
+            <main className="px-6 md:py-4  lg:px-16 space-y-8">
                 <section className="relative md:mt-0   space-x-0 md:space-x-8 items-center flex flex-col md:flex-row justify-evenly  mb-6 md:justify-between z-20 min-h-screen max-h-screen mt-auto ">
                     <div className="space-y-4 md:space-y-6 text-center md:text-left">
                         <h1 className="font-bold text-4xl md:text-7xl text-[#0C345D]">
@@ -53,6 +54,11 @@ export default function Home(){
                 <section className="relative flex flex-col z-20 items-center justify-center">
                     <h2 className="font-bold text-2xl md:text-4xl text-center mb-6 text-black">Why <span className="text-[#42A7C3]">us?</span></h2>
                     <WhyUsCard/>
+                </section>
+                <hr className="relative z-20"/>
+                <section className="relative flex flex-col z-20 items-center justify-center">
+                    <h2 className="font-bold text-2xl md:text-4xl text-center mb-6 text-black">Our client's <span className="text-[#42A7C3]">review.</span></h2>
+                    <ClientReview/>
                 </section>
                 <hr className="relative z-20"/>
 

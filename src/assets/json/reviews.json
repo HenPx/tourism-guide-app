@@ -1,0 +1,23 @@
+[
+    {
+        "usernme": "Irfan Rahmat",
+        "photo": "src/assets/profileReviews/default.png",
+        "Job": "Traveller",
+        "star": 4,
+        "comment": "This is the best place to help you find your dream holiday."
+    },
+    {
+        "usernme": "Ayu Rahmadani",
+        "photo": "src/assets/profileReviews/default.png",
+        "Job": "Student",
+        "star": 5,
+        "comment": "This is the best place to help you find your dream holiday."
+    },
+    {
+        "usernme": "Sintia Coppen",
+        "photo": "src/assets/profileReviews/default.png",
+        "Job": "Artist",
+        "star": 5,
+        "comment": "This is the best place to help you find your dream holiday."
+    }
+]
