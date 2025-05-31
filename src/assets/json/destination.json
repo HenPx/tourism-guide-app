@@ -44,97 +44,97 @@
     {
         "name": "Wanagiri Hidden Hill",
         "tagLoc": "North Bali",
-        "src": "src/assets/destinationPic/noimage.jpg",
+        "src": "src/assets/destinationPic/wanagiri.webp",
         "gmaps": "https://maps.app.goo.gl/De1xnxiaofYnZtaM8"
     },
     {
         "name": "Banyumala Waterfall",
         "tagLoc": "North Bali",
-        "src": "src/assets/destinationPic/noimage.jpg",
+        "src": "src/assets/destinationPic/bayumala-waterfall.jpg",
         "gmaps": "https://maps.app.goo.gl/ampSdhnhkyP3AFan9"
     },
     {
         "name": "Lempuyang Temple",
         "tagLoc": "East Bali",
-        "src": "src/assets/destinationPic/noimage.jpg",
+        "src": "src/assets/destinationPic/lempuyang.jpg",
         "gmaps": "https://maps.app.goo.gl/82e6RZUTZxNm7BEFA"
     },
     {
         "name": "Tirta Gangga",
         "tagLoc": "East Bali",
-        "src": "src/assets/destinationPic/noimage.jpg",
+        "src": "src/assets/destinationPic/tirta-gangga.jpg",
         "gmaps": "https://maps.app.goo.gl/PS6edZs6gdKX8G1u6"
     },
     {
         "name": "Kantolampo Waterfall",
         "tagLoc": "East Bali",
-        "src": "src/assets/destinationPic/noimage.jpg",
+        "src": "src/assets/destinationPic/kantolampo.webp",
         "gmaps": "https://maps.app.goo.gl/hBFFHnp4f5BUrwbA9"
     },
     {
         "name": "Water Spot Tanjung Benoa",
         "tagLoc": "South Bali",
-        "src": "src/assets/destinationPic/noimage.jpg",
+        "src": "src/assets/destinationPic/watersport.jpg",
         "gmaps": "https://maps.app.goo.gl/9CfPmoFyfa73aosw5"
     },
     {
         "name": "Uluwatu Temple",
         "tagLoc": "South Bali",
-        "src": "src/assets/destinationPic/noimage.jpg",
+        "src": "src/assets/destinationPic/uluwatu.jpg",
         "gmaps": "https://maps.app.goo.gl/995ZGKoeBXV4doQ47"
     },
     {
         "name": "Kecak Dance with Sunset",
         "tagLoc": "South Bali",
-        "src": "src/assets/destinationPic/noimage.jpg",
+        "src": "src/assets/destinationPic/kecak-sunset.jpeg",
         "gmaps": "https://maps.app.goo.gl/2crBPfbLcvVsPaiy9"
     },
     {
         "name": "Romantic Dinner at Jimbaran",
         "tagLoc": "South Bali",
-        "src": "src/assets/destinationPic/noimage.jpg",
+        "src": "src/assets/destinationPic/jimbaran-dinner.jpg",
         "gmaps": "https://maps.app.goo.gl/csmvvUMRf7fZjJbQ7"
     },
     {
         "name": "Taman Ayun Temple",
         "tagLoc": "West Bali",
-        "src": "src/assets/destinationPic/noimage.jpg",
+        "src": "src/assets/destinationPic/taman-ayun.jpg",
         "gmaps": "https://maps.app.goo.gl/86qLoKyWagUcyK4N9"
     },
     {
         "name": "Jatiluwih Rice Terace",
         "tagLoc": "West Bali",
-        "src": "src/assets/destinationPic/noimage.jpg",
+        "src": "src/assets/destinationPic/jatiluwih.jpg",
         "gmaps": "https://maps.app.goo.gl/VuQd4yN58A3K31P9A"
     },
     {
         "name": "Tanah Lot Temple",
         "tagLoc": "West Bali",
-        "src": "src/assets/destinationPic/noimage.jpg",
+        "src": "src/assets/destinationPic/tanah-lot.webp",
         "gmaps": "https://maps.app.goo.gl/vaiqboZZ3NWtVGRN8"
     },
     {
         "name": "Kelingking Beach",
         "tagLoc": "Nusa Penida",
-        "src": "src/assets/destinationPic/noimage.jpg",
+        "src": "src/assets/destinationPic/kelingking-beach.webp",
         "gmaps": "https://maps.app.goo.gl/iAEjBgM85DWzvmNP9"
     },
     {
         "name": "Broken Beach",
         "tagLoc": "Nusa Penida",
-        "src": "src/assets/destinationPic/noimage.jpg",
+        "src": "src/assets/destinationPic/broken-beach.jpeg",
         "gmaps": "https://maps.app.goo.gl/RNrLJzxyE628rcJc9"
     },
     {
         "name": "Angel's Bilabong",
         "tagLoc": "Nusa Penida",
-        "src": "src/assets/destinationPic/noimage.jpg",
+        "src": "src/assets/destinationPic/angel-billabong.jpg",
         "gmaps": "https://maps.app.goo.gl/yZ8imxyr8us6UAGg6"
     },
     {
         "name": "Diamond Beach",
         "tagLoc": "Nusa Penida",
-        "src": "src/assets/destinationPic/noimage.jpg",
+        "src": "src/assets/destinationPic/diamond-beach.jpg",
         "gmaps": "https://maps.app.goo.gl/q9rYx8vhaQkY74ANA"
     }
 ]

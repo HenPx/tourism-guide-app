@@ -1,12 +1,15 @@
 import React from "react";
 import { Disclosure } from "@headlessui/react";
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import { Link, Navigate, useNavigate } from "react-router-dom"; // Import Link from react-router-dom
+
+import TravelForm from "./FormBook";
 
 const routes = [
     { label: "Home", path: "/" },
     { label: "Destination", path: "/Destination" },
     { label: "FaQ", path: "/FaQ" },
 ];
+
 
 export default function Navigation() {
     return (
@@ -17,7 +20,7 @@ export default function Navigation() {
                         <div className="flex justify-between items-center h-16">
                             {/* Logo */}
                             <div>
-                                <Link key={"/FaQ"} to={"/FaQ"} className="text-2xl font-bold text-[#154871]">
+                                <Link key={"/FaQ"} to={"/"} className="text-2xl font-bold text-[#154871]">
                                     Travelwdra
                                 </Link>
                             </div>
@@ -36,9 +39,10 @@ export default function Navigation() {
                             </div>
 
                             {/* Button */}
-                            <button className="hidden md:block bg-[#154871] text-sm text-white px-5 py-2 rounded-lg shadow-lg hover:bg-[#42A7C3] transition">
+                            <Link to={'/Booking'}  className="hidden md:block bg-[#154871] text-sm text-white px-5 py-2 rounded-lg shadow-lg hover:bg-[#42A7C3] transition">
                                 Book Us
-                            </button>
+                            </Link>
+                            
 
                             {/* Burger Menu */}
                             <div className="flex md:hidden">
@@ -67,13 +71,14 @@ export default function Navigation() {
                             <div className="flex justify-between">
                                 {/* Logo */}
                                 <div>
-                                    <Link key={"/FaQ"} to={"/FaQ"} className="text-2xl font-bold text-[#154871]">
+                                    <Link key={"/FaQ"} to={"/"} className="text-2xl font-bold text-[#154871]">
                                         Travelwdra
                                     </Link>
                                 </div>
                                 {/* Button */}
-                                <button className=" bg-[#154871] w-max text-sm text-white px-4 py-2 rounded-lg shadow-lg hover:bg-[#42A7C3] transition w-full">
+                                <button className=" bg-[#154871] w-max text-sm text-white px-4 py-2 rounded-lg shadow-lg hover:bg-[#42A7C3] transition">
                                     Book Us
+                                {/* <TravelForm /> */}
                                 </button>
                             </div>
                             
